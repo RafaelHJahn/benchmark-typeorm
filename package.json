@@ -1,0 +1,22 @@
+{
+   "name": "benchmark-typeorm",
+   "version": "0.0.1",
+   "description": "",
+   "author": "",
+   "private": true,
+   "license": "UNLICENSED",
+   "scripts": {
+      "start": "ts-node src/benchmark-typeorm.ts"
+   },
+   "devDependencies": {
+      "@faker-js/faker": "^7.6.0",
+      "@types/node": "^16.11.10",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.11"
+   }
+}
